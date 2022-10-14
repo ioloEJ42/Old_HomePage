@@ -38,6 +38,10 @@ p2 {
 	z-index:1;
 }
 
+body {
+  text-align: center;
+}
+
 form {
     background-color: #363636;
     width: 25%;
