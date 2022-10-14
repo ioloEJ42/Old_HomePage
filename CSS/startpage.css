@@ -151,7 +151,9 @@ input {
     font-family: 'SpaceMono-regular';
 }
 
-a {color: inherit; }
+a {
+  font-size: 20px;
+  color: inherit; }
 
 .outer {
   display: table;
