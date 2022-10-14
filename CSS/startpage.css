@@ -60,6 +60,7 @@ input {
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: hidden;
+    accent-color: red;
 }
 
 ::placeholder {
