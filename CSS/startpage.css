@@ -112,7 +112,7 @@ input {
     background: none;
   	color: #B5B5B5;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: inherit;
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -123,7 +123,7 @@ input {
     background: none;
   	color: #b48ead;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: inherit;
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -134,7 +134,7 @@ input {
     background: none;
   	color: #bf616a;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: inherit;
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -145,7 +145,7 @@ input {
     background: none;
   	color: #81a1c1;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: inherit;
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
