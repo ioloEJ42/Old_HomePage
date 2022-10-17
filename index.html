@@ -61,19 +61,22 @@
             <!-- dark mode button -->
             <div class="inner w3-animate-opacity">
                 <button>
-                    <img src="img/togglemode.svg" aria-hidden="true" onclick="togglemode()" id="togglemode">
+                    <img src="img/togglemode.svg" aria-hidden="true" onclick="togglemode();toggleform()" id="togglemode">
                 </button>
 
                 <script>
                     function togglemode() {
                        var element = document.body;
                        element.classList.toggle("togglebackground");
-                       element.classList.toggle()
-                    //    var element = document.inner;
-                    //    element.classList.toggle("toggleform");
-                    //    element.classList.toggle()
+                       element.classList.toggle
+                    }
+                    function toggleform() {
+                       var element = document.form;
+                       element.classList.toggle("toggleform");
+                       element.classList.toggle
                     }
                     </script>
+
 
 
 
