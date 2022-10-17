@@ -188,14 +188,9 @@ a {
 
 /* Dark mode */
 
-.dark-mode{
+.togglemode{
     background-color: #363636;
     color: #B5B5B5;
-}
-
-.white-mode{
-    background-color: #fff;
-    color: #757575;
 }
 
 #footer {
