@@ -186,6 +186,18 @@ a {
     padding: 20px;
 }
 
+/* Dark mode */
+
+.dark-mode{
+    background-color: #363636;
+    color: #B5B5B5;
+}
+
+.white-mode{
+    background-color: #fff;
+    color: #757575;
+}
+
 #footer {
   position: fixed ;
   left: 0 ;
