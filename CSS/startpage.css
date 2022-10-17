@@ -39,6 +39,7 @@ p2 {
 }
 
 body {
+  background-color: #2a2a2a;
   text-align: center;
 }
 
@@ -186,12 +187,12 @@ a {
     padding: 20px;
 }
 
-/* Dark mode */
+/* Dark mode toggles */
 
-.togglemode{
-    background-color: #363636;
-    color: #B5B5B5;
+.togglebackground{
+    background-color: white; 
 }
+
 
 #footer {
   position: fixed ;
