@@ -130,7 +130,7 @@ input {
     font-family: 'SpaceMono-regular';
 }
 
-.button[id = "youtube"]:hover{
+.button[id = "firstcolumn"]:hover{
 	border: none;
     background: none;
   	color: #bf616a;
