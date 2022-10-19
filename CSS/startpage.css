@@ -119,7 +119,7 @@ input {
     font-family: 'SpaceMono-regular';
 }
 
-.button[id = "twitch"]:hover{
+.button[id = "firstcolumn"]:hover{
 	border: none;
     background: none;
   	color: #b48ead;
@@ -130,7 +130,7 @@ input {
     font-family: 'SpaceMono-regular';
 }
 
-.button[id = "firstcolumn"]:hover{
+.button[id = "secondcolumn"]:hover{
 	border: none;
     background: none;
   	color: #bf616a;
@@ -141,7 +141,7 @@ input {
     font-family: 'SpaceMono-regular';
 }
 
-.button[id = "twitter"]:hover{
+.button[id = "thirdcolumn"]:hover{
 	border: none;
     background: none;
   	color: #81a1c1;
