@@ -24,6 +24,10 @@ header {
 	z-index:1;
 }
 
+:root {
+  --columnsizetext: 18px;
+}
+
 p1 {
     font-family: 'SpaceMono-Regular';
     -webkit-text-fill-color: #757575;
@@ -102,7 +106,7 @@ input {
     background: none;
   	color: #757575;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: var(--columnsizetext);
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -113,7 +117,7 @@ input {
     background: none;
   	color: #B5B5B5;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: var(--columnsizetext);
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -124,7 +128,7 @@ input {
     background: none;
   	color: #b48ead;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: var(--columnsizetext);
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -135,7 +139,7 @@ input {
     background: none;
   	color: #bf616a;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: var(--columnsizetext);
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -146,7 +150,7 @@ input {
     background: none;
   	color: #81a1c1;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: var(--columnsizetext);
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
@@ -203,4 +207,9 @@ a {
   left: 0 ;
   bottom: 0 ;
   z-index:0;
+}
+
+.animated{
+  transition-duration: 5s, 1s;
+  transition-delay: 2s;
 }
