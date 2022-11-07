@@ -184,9 +184,20 @@ a {
   /*whatever width you want*/
 }
 
+
+.welcomeback{
+
+    font-family: 'SpaceMono-regular';
+    font-size: 80px;
+    color: #B5B5B5;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 #clock {
     width: 100%;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     font-family: 'WorkSans-SemiBold';
     color: #757575;
