@@ -123,6 +123,7 @@ input {
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
+    transition-duration: 3s;
 }
 
 .button[id = "firstcolumn"]:hover{
@@ -134,7 +135,6 @@ input {
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
-    transition: width 2s ease;
 }
 
 .button[id = "secondcolumn"]:hover{
@@ -146,7 +146,6 @@ input {
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
-    transition: width 2s ease;
 }
 
 .button[id = "thirdcolumn"]:hover{
@@ -158,7 +157,6 @@ input {
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
-    transition: width 2s ease;
 }
 
 a {
