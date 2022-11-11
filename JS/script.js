@@ -9,8 +9,8 @@ function realTimeClock() {
 	var minutes = clock.getMinutes();
 	var seconds = clock.getSeconds();
 	
-	// am or pm?
-	var tod = ( hours < 12 ) ? "am" : "pm";
+	// // am or pm?
+	//////////////// var tod = ( hours < 12 ) ? "am" : "pm";
 	
 	// convert to 12 hour format
 	hours = ( hours > 12 ) ? hours - 12: hours;
