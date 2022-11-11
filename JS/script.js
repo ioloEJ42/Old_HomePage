@@ -12,7 +12,8 @@ function realTimeClock() {
 	// am or pm?
 	var tod = ( hours < 12 ) ? "am" : "pm";
 	
-	// convert to 12 hour format (uncomment to use)
+	// convert to 12 hour format
+	// uncomment the following line if you want 12 hour format
 	//hours = ( hours > 12 ) ? hours - 12: hours;
 	
 	// padding to make it look a bit nicer
@@ -26,6 +27,6 @@ function realTimeClock() {
 	// uncomment to show am/pm
 	//document.getElementById('ampm').innerHTML = tod;
 
-	
+
 	var t = setTimeout( realTimeClock, 500 );
 }
