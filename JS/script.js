@@ -9,11 +9,11 @@ function realTimeClock() {
 	var minutes = clock.getMinutes();
 	var seconds = clock.getSeconds();
 	
-	// // am or pm?
-	//////////////// var tod = ( hours < 12 ) ? "am" : "pm";
+	// am or pm?
+	var tod = ( hours < 12 ) ? "am" : "pm";
 	
-	// convert to 12 hour format
-	hours = ( hours > 12 ) ? hours - 12: hours;
+	// convert to 12 hour format (uncomment to use)
+	//hours = ( hours > 12 ) ? hours - 12: hours;
 	
 	// padding to make it look a bit nicer
 	hours = ("0" + hours).slice(-2);
@@ -22,6 +22,10 @@ function realTimeClock() {
 	
 	// actually show the clock
 	document.getElementById('clock').innerHTML = hours + " : " + minutes + " : " + seconds;
-	document.getElementById('ampm').innerHTML = tod;
+	
+	// uncomment to show am/pm
+	//document.getElementById('ampm').innerHTML = tod;
+
+	
 	var t = setTimeout( realTimeClock, 500 );
 }
