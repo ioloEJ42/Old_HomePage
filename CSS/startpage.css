@@ -123,7 +123,7 @@ input {
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
-    transition-duration: 3s;
+    transition-duration: 1s;
 }
 
 .button[id = "firstcolumn"]:hover{
