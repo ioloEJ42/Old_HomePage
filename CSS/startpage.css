@@ -31,15 +31,32 @@ header {
   
 }
 
-
+/* DARKTHEME STUFF */
 html[data-theme='light'] {
   --backgroundtheme: var(--whitetheme);
 }
 
 html[data-theme='dark'] {
   --backgroundtheme: var(--darktheme);
+  
 }
 
+[data-theme='dark'] .form-control {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.6);
+  color: var(--text-color) !important;
+}
+
+[data-theme='dark'] .form-control:focus {
+  color: var(--text-color) !important;
+}
+
+[data-theme='light'] .d-block-light,
+[data-theme='dark'] .d-block-dark {
+    display: block !important;
+}
+
+/* END */
 p1 {
   font-family: 'SpaceMono-Regular';
   -webkit-text-fill-color: #757575;
